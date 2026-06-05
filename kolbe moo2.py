@@ -259,7 +259,7 @@ class kolbe_moo:
                                     "این ساعت قبلا رزرو شده است"
                                 )
                             else:
-                                 self.user_state[chat_id]["t"]=time[data]
+                                 self.user_state[chat_id]["t"]=selected_time
                                  self.user_state[chat_id]["step"]="waiting_lastname"
 
                                  self.send_message(
